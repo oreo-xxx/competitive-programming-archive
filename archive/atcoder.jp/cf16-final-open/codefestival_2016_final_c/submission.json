@@ -1,0 +1,12 @@
+{
+	"id": 10525577,
+	"epoch_second": 1583314718,
+	"problem_id": "codefestival_2016_final_c",
+	"contest_id": "cf16-final-open",
+	"user_id": "oreoid",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 400,
+	"length": 1346,
+	"result": "AC",
+	"execution_time": 49
+}

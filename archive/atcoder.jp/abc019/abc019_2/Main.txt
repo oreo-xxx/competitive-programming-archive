@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.lang.Math;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        s += '_';
+        StringBuilder sb = new StringBuilder();
+        char[] arr = s.toCharArray();
+        char prev = s.charAt(0);
+        int num = 0;
+        for(char c : arr){
+            if(c == prev){
+                ++num;
+            }
+            else{
+                String tmp = new String();
+                tmp += prev;
+                tmp += num;
+                sb.append(tmp);
+                prev = c;
+                num = 1;
+            }
+        }
+        String ans = sb.toString();
+        System.out.println(ans);
+    }
+}

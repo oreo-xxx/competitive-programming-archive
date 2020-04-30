@@ -1,0 +1,12 @@
+{
+	"id": 7144972,
+	"epoch_second": 1566785258,
+	"problem_id": "mujin_pc_2018_e",
+	"contest_id": "mujin-pc-2018",
+	"user_id": "oreoid",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 500,
+	"length": 2268,
+	"result": "AC",
+	"execution_time": 236
+}

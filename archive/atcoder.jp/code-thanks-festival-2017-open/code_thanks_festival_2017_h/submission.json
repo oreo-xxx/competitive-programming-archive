@@ -1,0 +1,12 @@
+{
+	"id": 6327297,
+	"epoch_second": 1562718364,
+	"problem_id": "code_thanks_festival_2017_h",
+	"contest_id": "code-thanks-festival-2017-open",
+	"user_id": "oreoid",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 600,
+	"length": 2145,
+	"result": "AC",
+	"execution_time": 380
+}

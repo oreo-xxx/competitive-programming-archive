@@ -1,0 +1,12 @@
+{
+	"id": 12157057,
+	"epoch_second": 1587345708,
+	"problem_id": "codefestival_2016_qualC_b",
+	"contest_id": "code-festival-2016-qualc",
+	"user_id": "oreoid",
+	"language": "Java8 (OpenJDK 1.8.0)",
+	"point": 200,
+	"length": 580,
+	"result": "AC",
+	"execution_time": 99
+}
