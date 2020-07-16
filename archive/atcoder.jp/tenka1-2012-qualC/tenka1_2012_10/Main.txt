@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+import java.lang.Math;
+
+public class Main {
+
+    public static String[] preprocess(String s){
+        String s1 = s.replace("S", "_S");
+        String s2 = s1.replace("H", "_H");
+        String s3 = s2.replace("C", "_C");
+        String s4 = s3.replace("D", "_D");
+        return s4.split("_");
+    }
+
+    static String check(String[] deck, String key){
+        int rem = 5;
+        Set <String> se = new HashSet<String>(){
+            {
+                add(key + "10");
+                add(key + "J");
+                add(key + "Q");
+                add(key + "K");
+                add(key + "A");
+            }
+        };
+        String ret = "";
+        for(String card : deck){
+            if(se.contains(card)) --rem;
+            else ret += card;
+            if(rem == 0) break;
+        }
+        return ret;
+    } 
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        String[] deck = preprocess(s);
+        String ans = check(deck, "S");
+        String t1 = check(deck, "H");
+        String t2 = check(deck, "C");
+        String t3 = check(deck, "D");
+        if(ans.length() > t1.length()) ans = t1;
+        if(ans.length() > t2.length()) ans = t2;
+        if(ans.length() > t3.length()) ans = t3;
+        if(ans.equals("")) ans = "0";
+        System.out.println(ans);
+    }
+}

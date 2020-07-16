@@ -1,0 +1,12 @@
+{
+	"id": 14153366,
+	"epoch_second": 1591774563,
+	"problem_id": "tenka1_2012_10",
+	"contest_id": "tenka1-2012-qualC",
+	"user_id": "oreoid",
+	"language": "Java8 (OpenJDK 1.8.0)",
+	"point": 100,
+	"length": 1447,
+	"result": "AC",
+	"execution_time": 104
+}
